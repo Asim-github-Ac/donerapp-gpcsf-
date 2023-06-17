@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DonateNowApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.FeedBackActivity"
+            android:label="Feedback"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.ShowFoodDtailsActivity"
+            android:exported="false"
+            android:label="Hall Food Details"
+            android:parentActivityName=".Activities.ShowFoodsActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.UserProfileActivity"
+            android:exported="false"
+            android:label="Profile"
+            android:parentActivityName=".Activities.UserHomeActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.ItemDetailActivity"
+            android:exported="false"
+            android:label="Product Detail"
+            android:parentActivityName=".Activities.ItemActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.FoodDetailActivity"
+            android:exported="false"
+            android:label="Food Details"
+            android:parentActivityName=".Activities.FoodActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.ShowFoodsActivity"
+            android:exported="false"
+            android:label="Hall Food"
+            android:parentActivityName=".Activities.UserHallActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.UserHallActivity"
+            android:exported="false"
+            android:label="Hall"
+            android:parentActivityName=".Activities.UserHomeActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.AddHallFoodActivity"
+            android:exported="false"
+            android:label="Add Hall Foods"
+            android:parentActivityName=".Activities.HallActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.AdminHallActivity"
+            android:exported="false"
+            android:label="Hall"
+            android:parentActivityName=".Activities.AdminHallActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.AddHallActivity"
+            android:exported="false"
+            android:label="Add Hall"
+            android:parentActivityName=".Activities.HallActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.HallActivity"
+            android:exported="false"
+            android:label="Hall"
+            android:parentActivityName=".Activities.UserHomeActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.ItemActivity"
+            android:exported="false"
+            android:label="Products"
+            android:parentActivityName=".Activities.UserHomeActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.AddItemActivity"
+            android:exported="false"
+            android:label="Add Product"
+            android:parentActivityName=".Activities.ResturantActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.FoodActivity"
+            android:exported="false"
+            android:label="Foods"
+            android:parentActivityName=".Activities.UserHomeActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.OrderDeliveryActivity"
+            android:exported="false"
+            android:label="Order Detail"
+            android:parentActivityName=".Activities.ShowOrderActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.ShowOrderActivity"
+            android:exported="false"
+            android:label="Order"
+            android:parentActivityName=".Activities.UserHomeActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.ProcedToCheckoutActivity"
+            android:exported="false"
+            android:label="Proceed to Check Out"
+            android:parentActivityName=".Activities.CartActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.CartActivity"
+            android:exported="false"
+            android:label="Cart"
+            android:parentActivityName=".Activities.UserHomeActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.DetailActivity"
+            android:exported="false"
+            android:label="Detail"
+            android:parentActivityName=".Activities.ProductActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.ProductActivity"
+            android:exported="false"
+            android:label="Fast Foods"
+            android:parentActivityName=".Activities.UserHomeActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.AddProductActivity"
+            android:exported="false"
+            android:label="Add Foods"
+            android:parentActivityName=".Activities.ResturantActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.AddResturantActivity"
+            android:exported="false"
+            android:label="Add Restaurant"
+            android:parentActivityName=".Activities.ResturantActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.ResturantActivity"
+            android:exported="false"
+            android:label="Restaurant"
+            android:parentActivityName=".Activities.UserHomeActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.ChangePasswordActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.AdminHomeActivity"
+            android:exported="false"
+            android:label="Admin">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.UserHomeActivity"
+            android:exported="true"
+            android:label="Home">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".Activities.UserRegisterActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
